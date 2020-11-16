@@ -1,0 +1,250 @@
+﻿@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {height:100%}
+
+body {
+    width: 100%;
+    height 100%;
+    color: #000000;
+    background:  #008080;
+    background-color: peachpuff;
+    font-size: 1em;
+    font-family:"Segoe UI", sans-serif;
+    line-height: 135%;
+}
+
+a {
+    color: #f48b8b;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+
+}
+
+a:hover{
+    color: #8b9ff5;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+}
+
+a:active{color:#8ce4a6}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+hr {
+    display:block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+.left {float: left}
+.right {float: right}
+.clear {clear: both}
+
+/* Selection Block */
+
+::selection {background: #f58b8b; color:#fff}
+::-moz-selection {background: #f58b8b; color:#fff}
+
+header, footer {
+    width: 98%;
+    background-color: #fff;
+    float: left;
+}
+
+header {
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+
+#logo {
+    font-size: 2em;
+    font-family: Comic Sans MS, sans-serif;
+    color:silver;
+}
+
+.contact {
+    font-size: 1.5em;
+    font-family: Comic Sans MS, sans-serif;
+    margin-left: 20px;
+}
+
+input[type=text].field {
+    border-radius: 5px;
+    border:2px solid silver;
+    padding:5px;
+    margin-left: 20px;
+}
+
+input[type=text].field:focus {border:2px solid #f58b8b;}
+
+#menu {
+    color: #666;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+}
+
+#menu hr {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#MenuHrefs a {
+    padding:5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: #626262;
+}
+
+#MenuHrefs a: hover {background-color: #ececec;}
+
+/* Основные стили сайта */
+
+#wrapper {
+    float:left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#wrapper #articles article {
+    float: left;
+    width: 31.3%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-right: 2%;
+    min-height: 400px;
+}
+
+#wrapper #articles article img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article h2 {
+    width: 90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: #4a4a4a;
+}
+
+#wrapper #articles article p {
+    width: 80%;
+    margin-left: 10%;
+    text-indent: 1em;
+}
+
+#wrapper #articles article a {
+    padding: 5px;
+    background-color: #ed7b7b;
+    margin-left: 5%;
+    border-radius: 5px;
+    color: #fff;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article a:hover{background-color: #7feb6d;}
+
+/* Стили для странички о нас */
+
+#about_us {
+    width: 60%;
+    float: left;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border:1px solid silver;
+    box-sizing: border-box;
+    padding:1%;
+}
+
+
+/* Центральный блок нашего сайта */
+
+#main_soc_block {
+    width: 100%;
+    padding: 2% 0;
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+    margin: 20px 0;
+    float:left;
+    background: url(../img/tau.jpg) repeat-x center;
+    height: 200px;
+}
+
+#main_soc_block_in {
+    text-align: center;
+    padding: 1%;
+    height: 100px;
+    background: #000000;
+    border: 1px solid silver;
+    border-radius: 7px;
+    width: 500px;
+}
+
+#main_soc_block_in a {
+    float: left;
+    padding: 5px 10px;
+    background-color: #000000;
+    border-radius: 6px;
+    color:#000000  margin-left: 25%;
+    margin-top: 10px;
+}
+
+/* Стили для футера */
+
+footer {
+    border-top: 2px solid silver;
+    padding: 1%;
+    margin-top: 10px;
+    padding-bottom: 1%;
+}
+
+footer img {width: 15%; float: left; margin-right:5px}
+
+#page-wrap:after {
+    content:"";
+    display: block;
+}
+
+footer, #page-wrap:after {margin-top: 40%;}
+
+#page-wrap {
+    min-height: 94%;
+    margin-bottom: -10px;
+}
+.box{
+    midth:500px;
+    height: 5000px;
+    border: 5px solid #000000;
+}
+.item{
+    
+}
